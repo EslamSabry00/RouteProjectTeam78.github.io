@@ -1,0 +1,106 @@
+.w-fit{
+    width: fit-content;
+}
+.bg-main{
+    background-color: #f25454;
+}
+.text-main{
+    color: #f25454;
+}
+.my-100px{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.py-60px{
+    padding-top: 60px;
+    Padding-bottom: 60px;
+}
+.py-30px{
+    padding-top: 30px;
+    Padding-bottom: 30px;
+}
+.f-family{
+    font-family: 'Poppins', sans-serif;
+}
+/*SECTION 1*/
+.fs-13{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.sec1-fixed-icon{
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #1f2528;
+    top: 127px;
+    z-index: 99999;
+}
+nav{
+    z-index: 9999999;
+}
+.carousel-bottun-left{
+    top: 268px;
+    width: 50px;
+    height: 50px;
+}
+.carousel-bottun-right{
+    top: 318px;
+    left: 0;
+    width: 50px;
+    height: 50px;
+}
+.carousel-bottun-hover:hover{
+    background-color: #ffffff;
+    color: #f25454;
+}
+.fs-70{
+    font-size: 70px;
+    line-height: 70px;
+}
+.layer{
+    width: 50px;
+    height: 50px;
+}
+.down{
+    display: block;
+    height: 40px;
+    width: 26px;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    bottom:30px ;
+}
+.down span{
+    display: block;
+    width: 7px;
+    height: 7px;
+    background-color: rgb(255, 255, 255,0.2);
+    border-radius: 50%;
+    margin-top: 7px;
+    top: 15px;
+    animation-name: down-btn;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+
+}
+.down:hover{
+    border: 1px solid #f25454;
+}
+.down:hover span{
+    background-color: #f25454;
+}
+@keyframes down-btn {
+    0%{
+        top: 0;
+        background-color: rgb(255, 255, 255,0.2)
+    }
+    50%{
+        background-color: #ffffff;
+    }
+    100%{
+        top: 15px;
+        background-color: rgb(255, 255, 255,0.5);
+    }
+}
+/*SECTION 1*/
